@@ -489,7 +489,7 @@
         Many employers procure hiring algorithms from the same third-party vendors. Over 60% of the Fortune 100 use HireVue's algorithms. When hiring algorithms from a single vendor mediate hiring decisions at multiple employers, they constitute an <strong>algorithmic monoculture</strong>.
     </p>
     <figure class="figure">
-        <img src="figures/fig1_pipeline.png" alt="Diagram of the pymetrics-mediated hiring pipeline showing how applicants are screened by shared algorithms across multiple employers">
+        <img src="figures/fig1_pipeline.png" alt="Diagram of the AI-mediated hiring pipeline showing how applicants are screened by shared algorithms across multiple employers">
         <figcaption><strong>Figure 1.</strong> Job applications are assessed by hiring AI to be recommended or not recommended. If an applicant is not recommended by the algorithm, they are likely to be rejected without further consideration by a human.</figcaption>
     </figure>
 </section>
@@ -500,7 +500,7 @@
 <section>
     <h2>Revealing Adverse Impact</h2>
     <p>
-        Title VII of the US Civil Rights Act governs discrimination in hiring. <a href="https://dl.acm.org/doi/10.1145/3442188.3445928">Prior</a> <a href="https://link.springer.com/article/10.1007/s43681-022-00208-x">studies</a> found very limited adverse impact in algorithmic hiring data as a whole. We surface previously-overlooked adverse impact by individually studying decisions for each job that uses pymetrics. Black applicants are the most likely to be adversely impacted: 30% of Black applicants apply to at least one position that demonstrates adverse impact against Black applicants. In terms of total effect, Asian applicants experience the largest shortfall: if Asians were selected at the same rate as the most selected racial group for each position, then 29000 additional Asian applications would be recommended.
+        Title VII of the US Civil Rights Act governs discrimination in hiring. <a href="https://dl.acm.org/doi/10.1145/3442188.3445928">Prior</a> <a href="https://link.springer.com/article/10.1007/s43681-022-00208-x">studies</a> found very limited adverse impact in algorithmic hiring data as a whole. We surface previously-overlooked adverse impact by studying positions separately. Black applicants are the most likely to be adversely impacted: 30% of Black applicants apply to at least one position that demonstrates adverse impact against Black applicants. In terms of total effect, Asian applicants experience the largest shortfall: if Asians were selected at the same rate as the most selected racial group for each position, then 29000 additional Asian applications would be recommended.
     </p>
     <figure class="figure">
         <img src="figures/adverse_impact.png" alt="Adverse impact across applicant groups" style="max-width:100%;">
@@ -518,7 +518,7 @@
     </p>
     <figure class="figure">
         <img src="figures/pymetrics_homogeneity.png" alt="Chart showing systemic rejection rates exceed baseline predictions" style="max-width: 85%;">
-        <figcaption><strong>Figure 3.</strong> Systemic rejection rates for pymetrics data. The observed rates always exceed the baseline: shared dependence on one vendor yields homogeneous outcomes.</figcaption>
+        <figcaption><strong>Figure 3.</strong> Systemic rejection rates in hiring AI data. The observed rates always exceed the baseline: shared dependence on one vendor yields homogeneous outcomes.</figcaption>
     </figure>
 
     <p>
@@ -586,7 +586,6 @@
 <!-- Citation -->
 <section id="citation">
     <h2>Citation</h2>
-    <p>If you find this work useful, please cite our paper:</p>
     <div class="bibtex-container">
         <button class="copy-btn" onclick="copyBibtex()">Copy</button>
         <div class="bibtex" id="bibtex-text">@article{bommasani2026algorithmic,
